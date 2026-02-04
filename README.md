@@ -40,22 +40,20 @@ Sigue estos pasos para desplegar el proyecto en tu máquina local:
 3.  **Iniciar servidor de desarrollo**:
     ```bash
     npm run dev
-    ```
     Visita `http://localhost:3000` en tu navegador.
 
 ## 📦 Despliegue
 
-Este proyecto está preparado para ser desplegado instantáneamente en **Vercel** o **Netlify**:
+Este proyecto está preparado para ser desplegado instantáneamente en **Vercel**:
 
 ```bash
 npm run build
-```
 
 Esto generará una carpeta `.output` lista para producción.
 
 ## 📞 Contacto y Redes
 
--   **Web**: [Ardentia Systems](#)
+-   **Web**: [Ardentia Systems](https://ardentia-landing-page.vercel.app/)
 -   **GitHub**: [@juannrgz](https://github.com/juannrgz)
 -   **Instagram**: [@ardentiasystems](https://www.instagram.com/ardentiasystems/)
 
