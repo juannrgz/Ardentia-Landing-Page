@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen relative flex flex-col items-center justify-center overflow-hidden pt-20">
+  <section class="min-h-screen relative flex flex-col items-center justify-center overflow-hidden pt-16 pb-12">
     <!-- Background Effects -->
     <div class="absolute inset-0 z-0">
       <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-ardentia-purple/20 rounded-full blur-[120px] opacity-70 animate-pulse" style="animation-duration: 8s" />
@@ -14,15 +14,15 @@
         :initial="{ opacity: 0, y: 50, scale: 0.9 }"
         :enter="{ opacity: 1, y: 0, scale: 1, transition: { duration: 1000, type: 'spring', stiffness: 50 } }"
       >
-        <h1 class="text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter mb-8 leading-tight">
+        <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-6 leading-tight">
           <span class="block text-white drop-shadow-lg">Tu web solo</span>
           <span class="block text-transparent bg-clip-text bg-gradient-to-r from-ardentia-purple via-ardentia-pink to-ardentia-purple bg-[length:200%_auto] animate-gradient">
             "está ahí"
           </span>
-          <span class="block text-zinc-400 text-4xl md:text-6xl mt-4 font-medium tracking-tight">o realmente vende?</span>
+          <span class="block text-zinc-400 text-3xl md:text-5xl mt-2 font-medium tracking-tight">o realmente vende?</span>
         </h1>
         
-        <p class="text-xl md:text-2xl text-zinc-300 max-w-3xl mx-auto mb-10 leading-relaxed font-light">
+        <p class="text-lg md:text-xl text-zinc-300 max-w-3xl mx-auto mb-8 leading-relaxed font-light">
           "Transformamos la chispa de tu negocio en una <span class="text-white font-medium">maquinaria digital de alto rendimiento</span>."
         </p>
 
@@ -42,17 +42,6 @@
           </a>
         </div>
       </div>
-    </div>
-
-    <!-- Scroll Indicator (Hidden on Desktop) -->
-    <div 
-      class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 md:hidden"
-      v-motion
-      :initial="{ opacity: 0 }"
-      :enter="{ opacity: 0.5, transition: { delay: 1500 } }"
-    >
-      <span class="text-xs uppercase tracking-widest text-zinc-500">Scroll</span>
-      <div class="w-[1px] h-12 bg-gradient-to-b from-white to-transparent" />
     </div>
   </section>
 </template>
