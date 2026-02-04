@@ -67,9 +67,10 @@
 
             <button 
               type="submit"
-              class="w-full py-3 bg-white text-black font-bold rounded-lg hover:bg-zinc-200 transition-all active:scale-[0.98]"
+              :disabled="isSubmitting"
+              class="w-full py-3 bg-white text-black font-bold rounded-lg hover:bg-zinc-200 transition-all active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Enviar Mensaje
+              {{ isSubmitting ? 'Enviando...' : 'Enviar Mensaje' }}
             </button>
           </form>
         </div>
@@ -80,19 +81,42 @@
 
 <script setup>
 const { isOpen, close } = useContactModal()
+const isSubmitting = ref(false)
 const form = reactive({
   name: '',
   email: '',
   message: ''
 })
 
-const handleSubmit = () => {
-  // Simulate form submission
-  console.log('Form submitted:', form)
-  alert('¡Gracias! Hemos recibido tu mensaje.')
-  close()
-  form.name = ''
-  form.email = ''
-  form.message = ''
+const handleSubmit = async () => {
+  isSubmitting.value = true
+  
+  // Reemplaza esta URL con la que obtendrás de Google Apps Script
+  const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxCsRk3bmQXTO3NPJoHWhR3M_Mi2QcxGH-NcLLlMg9LDI9hjDDTX2q_KOwD2ceFyj5x9Q/exec'
+
+  try {
+    const formData = new FormData()
+    formData.append('name', form.name)
+    formData.append('email', form.email)
+    formData.append('message', form.message)
+    formData.append('timestamp', new Date().toISOString())
+
+    await fetch(SCRIPT_URL, {
+      method: 'POST',
+      body: formData,
+      mode: 'no-cors' // Google Script requiere no-cors o manejarlo específicamente
+    })
+
+    alert('¡Gracias! Hemos recibido tu mensaje y se ha guardado en Google Sheets.')
+    close()
+    form.name = ''
+    form.email = ''
+    form.message = ''
+  } catch (error) {
+    console.error('Error:', error)
+    alert('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.')
+  } finally {
+    isSubmitting.value = false
+  }
 }
 </script>
