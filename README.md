@@ -1,6 +1,4 @@
-# ⚡ Ardentia Systems | Arquitectura Digital
-
-![Ardentia Systems](public/logo.png)
+# <img src="public/logo.png" width="40" vertical-align="middle"> ArdentiaSystems <!-- id: header -->
 
 > "Transformamos la chispa de tu negocio en una maquinaria digital de alto rendimiento."
 
