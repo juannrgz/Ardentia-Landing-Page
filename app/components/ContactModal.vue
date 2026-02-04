@@ -91,7 +91,6 @@ const form = reactive({
 const handleSubmit = async () => {
   isSubmitting.value = true
   
-  // Reemplaza esta URL con la que obtendrás de Google Apps Script
   const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxCsRk3bmQXTO3NPJoHWhR3M_Mi2QcxGH-NcLLlMg9LDI9hjDDTX2q_KOwD2ceFyj5x9Q/exec'
 
   try {
@@ -107,7 +106,7 @@ const handleSubmit = async () => {
       mode: 'no-cors' // Google Script requiere no-cors o manejarlo específicamente
     })
 
-    alert('¡Gracias! Hemos recibido tu mensaje y se ha guardado en Google Sheets.')
+    alert('¡Gracias! Hemos recibido tu mensaje!')
     close()
     form.name = ''
     form.email = ''
