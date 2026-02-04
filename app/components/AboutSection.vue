@@ -22,7 +22,7 @@
             El nombre <span class="text-ardentia-pink">"Ardentia"</span> sugiere energía y movimiento, mientras que <span class="text-ardentia-purple">"Systems"</span> da la seguridad de que hay orden y metodología detrás.
           </p>
           <p class="mt-6 border-l-4 border-ardentia-purple pl-4 italic text-zinc-300">
-            "Al decir que hacemos 'Sistemas' y no solo 'Páginas', elevamos el valor percibido. Un cliente paga más por un sistema de ventas que por una simple página web."
+            "Nuestra metodología transforma simples conceptos en ecosistemas digitales estratégicos. Al construir sistemas escalables y no solo páginas aisladas, garantizamos que tu presencia digital sea tu activo más valioso."
           </p>
         </div>
       </div>
