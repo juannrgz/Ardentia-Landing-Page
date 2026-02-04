@@ -1,0 +1,85 @@
+
+> build
+> nuxt build
+
+[90mÔöî[39m  [36mBuilding Nuxt for production...[39m
+[90mÔöé[39m
+[34mÔùÅ[39m  [32mNuxt [1m4.3.0[22m[39m[90m (with [39m[90mNitro [1m2.13.1[22m[39m[90m, Vite [1m7.3.1[22m[39m[90m and Vue [1m3.5.27[22m[39m[90m)[39m
+[90mÔöé[39m
+[34mÔùÅ[39m  Nitro preset: [36mnode-server[39m
+[36mÔä╣[39m Building client...
+[36mÔä╣[39m [36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+[36mÔä╣[39m transforming...
+[36mÔä╣[39m [32mÔ£ô[39m 192 modules transformed.
+[36mÔä╣[39m rendering chunks...
+[36mÔä╣[39m computing gzip size...
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[32mmanifest.json                 [39m[1m[2m  1.83 kB[22m[1m[22m[2m Ôöé gzip:  0.42 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[35m_nuxt/index.CXKUgn6g.css      [39m[1m[2m  0.20 kB[22m[1m[22m[2m Ôöé gzip:  0.14 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[35m_nuxt/error-500.DBWf9FGj.css  [39m[1m[2m  1.91 kB[22m[1m[22m[2m Ôöé gzip:  0.73 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[35m_nuxt/error-404.C-Ezrlz-.css  [39m[1m[2m  2.43 kB[22m[1m[22m[2m Ôöé gzip:  0.86 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[35m_nuxt/entry.BZogQJMd.css      [39m[1m[2m 30.61 kB[22m[1m[22m[2m Ôöé gzip:  5.68 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/C8kALY6o.js             [39m[1m[2m  0.33 kB[22m[1m[22m[2m Ôöé gzip:  0.24 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/CYCbO1nC.js             [39m[1m[2m  1.60 kB[22m[1m[22m[2m Ôöé gzip:  0.80 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/DjfHrGJV.js             [39m[1m[2m  3.48 kB[22m[1m[22m[2m Ôöé gzip:  1.56 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/20rfLtpq.js             [39m[1m[2m  8.86 kB[22m[1m[22m[2m Ôöé gzip:  3.57 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/M3guxiV8.js             [39m[1m[2m 10.21 kB[22m[1m[22m[2m Ôöé gzip:  3.36 kB[22m
+[36mÔä╣[39m [2m../node_modules/.cache/nuxt/.nuxt/dist/client/[22m[36m_nuxt/t0sTj5wF.js             [39m[1m[2m202.27 kB[22m[1m[22m[2m Ôöé gzip: 76.39 kB[22m
+[36mÔä╣[39m [32mÔ£ô built in 1.30s[39m
+[32mÔ£ö[39m Client built in 1312ms
+[36mÔä╣[39m Building server...
+[36mÔä╣[39m [36mvite v7.3.1 [32mbuilding ssr environment for production...[36m[39m
+[36mÔä╣[39m transforming...
+[36mÔä╣[39m [32mÔ£ô[39m 72 modules transformed.
+[36mÔä╣[39m rendering chunks...
+
+ WARN  [plugin @tailwindcss/vite:generate:build] Sourcemap is likely to be incorrect: a plugin (@tailwindcss/vite:generate:build) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help
+
+
+ WARN  [plugin @tailwindcss/vite:generate:build] Sourcemap is likely to be incorrect: a plugin (@tailwindcss/vite:generate:build) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help (x2)
+
+
+ WARN  [plugin @tailwindcss/vite:generate:build] Sourcemap is likely to be incorrect: a plugin (@tailwindcss/vite:generate:build) was used to transform files, but didn't generate a sourcemap for the transformation. Consult the plugin documentation for help (x3)
+
+[36mÔä╣[39m [32mÔ£ô built in 645ms[39m
+[32mÔ£ö[39m Server built in 654ms
+[90m[[90mnitro[90m][39m [32mÔ£ö[39m Generated public [36m.output/public[39m
+[90m[[90mnitro[90m][39m [36mÔä╣[39m Building Nuxt Nitro server (preset: [36mnode-server[39m, compatibility date: [36m2025-07-15[39m)
+(node:16848) [DEP0155] DeprecationWarning: Use of deprecated trailing slash pattern mapping "./" in the "exports" field module resolution of the package at C:\Users\juanr\Documents\ArdentiaLanding\node_modules\@vue\shared\package.json imported from C:\Users\juanr\Documents\ArdentiaLanding\node_modules\@nuxt\nitro-server\dist\runtime\templates\error-500.mjs. Mapping specifiers ending in "/" is no longer supported.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[90m[[90mnitro[90m][39m [32mÔ£ö[39m Nuxt Nitro server built
+[90m  Ôö£ÔöÇ .output/server/chunks/_/error-500.mjs (5.09 kB)[39m[90m (2.07 kB gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/_/error-500.mjs.map (182 B)[39m[90m (154 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/_/nitro.mjs (160 kB)[39m[90m (39.8 kB gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/_/nitro.mjs.map (2.77 kB)[39m[90m (705 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/client.precomputed.mjs (4.81 kB)[39m[90m (771 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/client.precomputed.mjs.map (188 B)[39m[90m (150 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/composables-W3sise9O.mjs (732 B)[39m[90m (391 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/composables-W3sise9O.mjs.map (197 B)[39m[90m (159 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/default-D1e30ZNy.mjs (2.65 kB)[39m[90m (1.14 kB gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/default-D1e30ZNy.mjs.map (189 B)[39m[90m (159 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/error-404-Rxm-JEz2.mjs (14.9 kB)[39m[90m (4.49 kB gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/error-404-Rxm-JEz2.mjs.map (193 B)[39m[90m (161 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/error-404-styles.DuDrf-v0.mjs (2.72 kB)[39m[90m (986 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/error-404-styles.DuDrf-v0.mjs.map (317 B)[39m[90m (188 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/error-500-CpeBYJf3.mjs (4.89 kB)[39m[90m (2.01 kB gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/error-500-CpeBYJf3.mjs.map (193 B)[39m[90m (161 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/error-500-styles.8IYEHzz6.mjs (2.19 kB)[39m[90m (860 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/error-500-styles.8IYEHzz6.mjs.map (317 B)[39m[90m (193 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/HeroSection-styles.BylO3jcl.mjs (482 B)[39m[90m (269 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/HeroSection-styles.BylO3jcl.mjs.map (323 B)[39m[90m (194 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/index-uIWxxo_i.mjs (14.2 kB)[39m[90m (3.8 kB gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/index-uIWxxo_i.mjs.map (185 B)[39m[90m (155 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/server.mjs (80.6 kB)[39m[90m (20.2 kB gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/server.mjs.map (172 B)[39m[90m (147 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/styles.mjs (1.01 kB)[39m[90m (344 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/build/styles.mjs.map (164 B)[39m[90m (142 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/routes/renderer.mjs (17.3 kB)[39m[90m (5.54 kB gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/routes/renderer.mjs.map (845 B)[39m[90m (272 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/virtual/_virtual_spa-template.mjs (94 B)[39m[90m (100 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/chunks/virtual/_virtual_spa-template.mjs.map (90 B)[39m[90m (98 B gzip)[39m
+[90m  Ôö£ÔöÇ .output/server/index.mjs (1.67 kB)[39m[90m (737 B gzip)[39m
+[90m  ÔööÔöÇ .output/server/package.json (858 B)[39m[90m (375 B gzip)[39m
+[36m╬ú Total size:[39m 2 MB (506 kB gzip)
+[90m[[90mnitro[90m][39m [32mÔ£ö[39m You can preview this build using [36mnode .output/server/index.mjs[39m
+[90mÔöé[39m
+[90mÔöö[39m  Ô£¿ Build complete!

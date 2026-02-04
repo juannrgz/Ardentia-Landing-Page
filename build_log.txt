@@ -1,0 +1,19 @@
+
+> build
+> nuxt build
+
+[90mÔöî[39m  [36mBuilding Nuxt for production...[39m
+[90mÔöé[39m
+[34mÔùÅ[39m  [32mNuxt [1m4.3.0[22m[39m[90m (with [39m[90mNitro [1m2.13.1[22m[39m[90m, Vite [1m7.3.1[22m[39m[90m and Vue [1m3.5.27[22m[39m[90m)[39m
+[90mÔöé[39m
+[34mÔùÅ[39m  Nitro preset: [36mnode-server[39m
+[36mÔä╣[39m Building client...
+[36mÔä╣[39m [36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+[36mÔä╣[39m transforming...
+[36mÔä╣[39m [32mÔ£ô[39m 59 modules transformed.
+
+ ERROR  Ô£ù Build failed in 457ms
+
+[90mÔöé[39m
+[31mÔûá[39m  Nuxt build error: RollupError: [31m[vite:vue] [plugin vite:vue] app/pages/index.vue: At least one <template> or <script> is required in a single file component. C:/Users/juanr/Documents/ArdentiaLanding/app/pages/index.vue[39m
+[90mÔöé[39m  file: [36mC:/Users/juanr/Documents/ArdentiaLanding/app/pages/index.vue[39m
